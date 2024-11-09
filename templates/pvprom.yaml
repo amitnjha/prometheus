@@ -1,5 +1,6 @@
 apiVersion: v1
 kind: PersistentVolume
+namespace: prometheus
 metadata:
   name: prometheus-usb-pv
   labels:
