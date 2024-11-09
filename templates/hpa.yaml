@@ -1,6 +1,7 @@
 {{- if .Values.autoscaling.enabled }}
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
+namespace: prometheus
 metadata:
   name: {{ include "prometheus.fullname" . }}
   labels:
