@@ -46,4 +46,4 @@ prometheus:
     persistentVolume:
       enabled: true
       existingClaim: "prometheus-usb-pvc"
-      volumeName: "prometheus-usb-pv"BB
+      volumeName: "prometheus-usb-pv"
